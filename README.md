@@ -15,8 +15,8 @@
 
 `git log`
 
-## 추가변경사항
+## 추가 변경사항
 
-commit 한번
+commit 하나
 
 
