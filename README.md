@@ -31,7 +31,7 @@ git restore <file>...
 ``` 
 - 마지막 커밋된 상태로 돌리기
 
-## add만 된 변경사항 으로 되도려 보자
+## add만 된 변경사항 으로 되돌려 보자
 
 ```
 git restore --staged <file>
