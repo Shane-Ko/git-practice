@@ -3,35 +3,50 @@
 
 ## 기본 명령어
 
-`git init`
-    현재 폴더를 프로젝트로 만든다
+```
+git init
+```    
+- 현재 폴더를 프로젝트로 만든다
 
-`git status`
-    현재 git으로 관리되고 있는 프로젝트가 어떠한 상태 등 정보를 확인하는 명령어
+```
+git status
+```
+- 현재 git으로 관리되고 있는 프로젝트가 어떠한 상태 등 정보를 확인하는 명령어
 
-`git add`
+```
+git add
+```
 
-`git commit`
+```
+git commit
+```
 
-`git log`
+```
+git log
+```
 
 ## 추가 변경사항
 
-commit 하나
+연습삼아 해본 행
 
 ## 지워질 변경사항
 
-지울 변경사항
+연습삼아 해본 행
 
-`git restore <file>...` 
-    마지막 커밋된 상태로 돌리기
+```
+git restore <file>...
+``` 
+- 마지막 커밋된 상태로 돌리기
 
 ## add만 된 변경사항 으로 되도려 보자
 
-`git restore --staged <file>`
-
-    코드를 마지막 커밋으로 돌리는 것이 아닌, add된 것만 취소함
+```
+git restore --staged <file>
+```
+- 코드를 마지막 커밋으로 돌리는 것이 아닌, add된 것만 취소함
 
 ## commit 된 것 없애기
-`git reste <commit 번호(?)`
-    코드가 사라지는 것은 아님. commit 자체를 없던 일로 만듬 (많이 안쓰는 것이 좋음)
+```
+git reset <commit 번호(?)
+```
+- 코드가 사라지는 것은 아님. commit 자체를 없던 일로 만듬 (많이 안쓰는 것이 좋음)
