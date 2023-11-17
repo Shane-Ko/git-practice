@@ -25,14 +25,7 @@ git commit
 git log
 ```
 
-## 추가 변경사항
-
-연습삼아 해본 행
-
-## 지워질 변경사항
-
-연습삼아 해본 행
-
+## restore을 사용해서 수정
 ```
 git restore <file>...
 ``` 
@@ -50,3 +43,4 @@ git restore --staged <file>
 git reset <commit 번호(?)
 ```
 - 코드가 사라지는 것은 아님. commit 자체를 없던 일로 만듬 (많이 안쓰는 것이 좋음)
+
