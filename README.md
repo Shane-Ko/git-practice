@@ -25,3 +25,13 @@ commit 하나
 
 `git restore <file>...` 
     마지막 커밋된 상태로 돌리기
+
+## add만 된 변경사항 으로 되도려 보자
+
+`git restore --staged <file>`
+
+    코드를 마지막 커밋으로 돌리는 것이 아닌, add된 것만 취소함
+
+## commit 된 것 없애기
+`git reste <commit 번호(?)`
+    코드가 사라지는 것은 아님. commit 자체를 없던 일로 만듬 (많이 안쓰는 것이 좋음)
