@@ -13,6 +13,8 @@
 
 `git commit`
 
+`git log`
+
 ## 추가변경사항
 
 변경 사항
